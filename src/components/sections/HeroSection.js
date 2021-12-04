@@ -1,6 +1,7 @@
 import React from "react"
 // import { Link } from "gatsby"
 import styled from "styled-components"
+import PurchaseButton from "../button/PurchaseButton"
 import { themes } from "../styles/ColorStyles"
 import {H1, MediumText} from "../styles/TextStyles"
 
@@ -14,6 +15,7 @@ function HeroSection() {
             and code SwiftUI apps
           </Title>
           <Description>Welcome to your new Gatsby site.</Description>
+          <PurchaseButton/>
         </TextWrapper>
       </ContentWrapper>
     </Wrapper>
